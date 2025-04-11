@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(240, 239, 239);
+  color: rgb(0, 50, 108);
+}
+
+header {
+  background-color: #ffffff;
+  padding: 30px 50px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  text-decoration: none;
+  color: rgb(0, 50, 108);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 50, 108);
+  font-size: 18px;
+  border: 1px solid rgb(0, 50, 108);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+nav ul li a:hover {
+  background-color: rgb(0, 50, 108);
+  color: white;
+  transition: 0.4s;
+}
+
+.home-section {
+  padding: 50px 100px;
+  text-align: start;
+}
+.blog-section {
+  padding: 50px 100px;
+  text-align: start;
+}
+.blog-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(0, 50, 108);
+}
+.blog-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+footer{
+  background-color: #2c2c2c;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #4caf50;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-media li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.social-media li a:hover {
+  color: #4caf50;
+}
+
+footer p:last-of-type {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.about-section {
+  padding: 50px 100px;
+  text-align: start;
+}
+
+.aboutus {
+  font-size: 28px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.contact-section {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    text-align: center;
+    height: 100vh;
+  }
